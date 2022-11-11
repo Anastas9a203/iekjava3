@@ -12,6 +12,39 @@ package com.mycompany.mavenproject2;
 public class Mavenproject2 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int x = 20;
+        int y = 18;
+        if(x>y) {
+            System.out.println ("x is greater than y");
+            
+            String name;//To hold the employee's name
+            int age;
+            char gender;//To hold the employee's gender
+            double salary;//To hold the employee's salary 
+            
+            
+            Scanner console = new Scanner( System.in);
+            
+            System.out.printl("Enter name:");
+                    
+            name=console.nextine();
+                    
+            System.out.println("Enter age");     
+            age=console.nextInt();
+                   
+            System.out.println("Enter gender:(F/M");
+            gender=console.next().charAt(0);
+                    
+            System.out.println("Enter salary:");
+                    
+            System.out.print("enter salary:");
+            salary = console.nextDouble();
+                    
+            
+            System.out.println ("Name:" + name + "Age:"+ age + "Gender:"
+                            +gender + "Salary" + salary);
+                            
+            }
+        }
     }
-}
+
